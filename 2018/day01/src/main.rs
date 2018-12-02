@@ -23,6 +23,7 @@ fn main() {
             inputs.push(i);
         }
     }
+    println!("{}", result);
     while true {
         for i in inputs.iter() {
             result += i;
